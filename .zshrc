@@ -7,8 +7,8 @@ export ZSH="/Users/phamd/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -97,3 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias nssStart="/usr/local/opt/tomcat@7/bin/catalina run"
+alias nssGrunt="cd ~/Projects/NewsService/code/nss-web/src/main/ && grunt"
+alias nssBuild="cd ~/Projects/NewsService/code/nss-web/ && mvn clean package"
+export PATH="/usr/local/apache-maven-3.5.2/bin:$PATH"
+export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"
