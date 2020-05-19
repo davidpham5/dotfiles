@@ -1,5 +1,6 @@
 copy and paste onto terminal
 
+```
 code --install-extension abusaidm.html-snippets
 code --install-extension adashen.vscode-tomcat
 code --install-extension akamud.vscode-caniuse
@@ -49,7 +50,6 @@ code --install-extension Prisma.vscode-graphql
 code --install-extension pthorsson.vscode-jsp
 code --install-extension redhat.java
 code --install-extension sdras.night-owl
-code --install-extension Shan.code-settings-sync
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension shinnn.standard
 code --install-extension skyran.js-jsx-snippets
@@ -71,3 +71,4 @@ code --install-extension whtouche.vscode-js-console-utils
 code --install-extension wix.vscode-import-cost
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension Zignd.html-css-class-completion
+```
