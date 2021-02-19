@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/phamd/.oh-my-zsh"
+export ZSH="/Users/davidpham/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -98,8 +98,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nssStart="/usr/local/opt/tomcat@7/bin/catalina run"
-alias nssGrunt="cd ~/Projects/NewsService/code/nss-web/src/main/ && grunt"
-alias nssBuild="cd ~/Projects/NewsService/code/nss-web/ && mvn clean package"
+alias nssGrunt="cd ~/Projects/washpost/NewsService/code/nss-web/src/main/ && grunt"
+alias nssBuild="cd ~/Projects/washpost/NewsService/code/nss-web/ && mvn clean package"
+alias getSong="echo youtube-dl -x --audio-format mp3 --add-metadata {url}"
 export PATH="/usr/local/apache-maven-3.5.2/bin:$PATH"
 export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/"
+# export JAVA_HOME=$(/usr/libexec/java_home)
+
